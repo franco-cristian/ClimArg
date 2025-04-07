@@ -21,7 +21,7 @@ El proyecto **ClimArg** es una aplicación web que permite consultar informació
 Antes de usar este proyecto, asegúrate de tener lo siguiente:
 1. **Servidor web local** como XAMPP, WAMP o similar.
 2. **PHP** (versión 7.4 o superior).
-3. Clave API válida de [Meteoblue](https://www.meteoblue.com/).
+3. Clave API válida de [Meteoblue](https://content.meteoblue.com/es/soluciones-para-empresas/api-meteorologica).
 4. Navegador web moderno.
 
 ---
@@ -55,7 +55,7 @@ define('METEOBLUE_API_KEY', 'TU_CLAVE_API_AQUÍ');
 
 ### **Iniciar el servidor local**
 Abre tu servidor local (XAMPP, WAMP, o similar).
-Activa los servicios Apache (y MySQL si necesitas una base de datos para otro uso futuro).
+Activa el servicio de Apache.
 Ve al navegador y accede a:
 http://localhost/ruta_del_proyecto/frontend/index.html
 ruta_del_proyecto reemplázalo con el nombre que le diste
